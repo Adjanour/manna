@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "bernard.scripture",
+  "name": "Scripture of the day",
+  "version": "1.0.0",
+  "author": "bernard",
+  "description": "Shows today's scripture verse in the bar",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Scripture.qml"
+  },
+  "barWidget": {
+    "displayName": "Scripture of the day",
+    "description": "Shows today's scripture verse in the bar",
+    "category": "Personal",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
